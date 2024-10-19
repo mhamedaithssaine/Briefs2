@@ -1,6 +1,7 @@
 bady{
     font-family: lufga;
-    margin: 1.2rem;
+    margin: 3rem;
+
 }
 
 /*header---------------------------*/
@@ -411,37 +412,47 @@ li button.sing-in {
 
 
 .section1-blog{
-    display: grid;
-    justify-items:center;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    margin-bottom: 80px;
+    align-items: center;
+    flex-wrap:wrap;
+   margin-left: 100px;
+   margin-right: 100px;
+   margin-top: 50px;
+   margin-bottom: 50px;
+    
 
 }
-.sectio-img1-blog{
-    display: grid;
-    justify-items: center;
+.section1-blog div {
+    
+    line-height: 2rem;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
+    margin: 10px;
+    
+    text-align: center;
+    
 }
+
 .title-blog{
     font-size: large;
     font-family: lufga;
-    
     padding: 50px;
+
    
-    text-align: center;
+
 }
 .title-img1-blog{
     font-size:3rem;
-    
-    padding-bottom: 15px;
-    
 }
 
 .p-img1-blog{
    font-size: 32px;
    font-family: lufga;
-   text-align: center;
-   color: #110229;
+
 }
 /* /*section 1 blog end */
 
